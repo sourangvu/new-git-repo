@@ -1,0 +1,15 @@
+
+h1 {margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 8s;
+  }
+
+
+@keyframes example {
+  from {background-color: rgb(255, 0, 247);}
+  to {background-color: rgb(255, 204, 0);}
+}   
